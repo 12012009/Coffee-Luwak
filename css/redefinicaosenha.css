@@ -154,13 +154,13 @@ button {
     cursor: pointer;
     transition: all 0.3s ease;
     margin-top: 1vh;
-    margin-left: 85vh;
+    margin-left: 75vh;
 }
 
 footer {
     margin-top: 12vh;
     background-color: #402A18;
-    height: 33vh;
+    height: 34vh;
 }
 
 .direitos {
