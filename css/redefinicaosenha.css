@@ -28,7 +28,6 @@ body {
 
 header {
     height: 30vh;
-    width: 100vw;
     background-color: #402A18;
     display: flex;
     flex-direction: column;
