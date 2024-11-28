@@ -64,10 +64,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70vw;
-    height: 200px;
+    width: 70.8vw;
+    height: 100px;
     gap: 5rem;
-    margin-top: 10px;
     background: #433123;
 }
 
