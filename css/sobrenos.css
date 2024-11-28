@@ -66,7 +66,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 72.4vw;
+    width: 60vw;
     height: 100px;
     gap: 5rem;
     background: #433123;
@@ -145,14 +145,12 @@ footer {
     margin-top: 70vh;
     background-color: #402A18;
     height: 30vh;
+    width: 60vw;
 }
 
 .direitos{
     margin-top: 20vh;
-    text-align: center
-    
-    
-    
+    text-align: center    
 }
 
 p {
