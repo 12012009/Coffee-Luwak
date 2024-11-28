@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#tela {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: Feeling Passionate;
+    src: url("../font/Feeling_Passionate.otf");
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #ac9f93;
+    color: #f7f7f7;
+    height: 100vh;
+}
+
+#cafe {
+    font-family: Feeling Passionate;
+    margin-left: 20px;
+}
+
+header {
+    height: 30vh;
+    width: 100vw;
+    background-color: #402A18;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.left,
+.right {
+    display: flex;
+    gap: 5rem;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.right a {
+    text-decoration: none;
+    color: #f5e6d3;
+    transition: 0.5 ease-in-out;
+}
+
+.right a:hover {
+    color: #f3eeee;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90px;
+    gap: 5rem;
+    margin-top: 10px;
+    background: #433123;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: bold;
+}
+
+#search {
+    width: 450px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    background: transparent;
+    outline: none;
+}
+
+#search::placeholder {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.informacoes {
+    margin-top: 30px;
+    margin-left: -2vw;
+    color: #402A18;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.container {
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    justify-content: center;
+    margin-left: 75vw;
+    margin-top: 5vh;
+    background-color: white;
+    border-radius: 40px;
+    position: absolute;
+}
+
+.coffee img {
+    width: 330px;
+    height: 320px;
+    margin-top: 6vh;
+    margin-left: 5vw;
+    transition: 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: absolute;
+}
+
+button {
+    position: absolute;
+    width: 17vw;
+    height: 45px;
+    padding: 10px;
+    background-color: #73a158;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 12vh;
+    margin-left: -0.5vw;
+}
+
+.imagem1 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-left: -41vw;
+    margin-top: -18vh;
+    position: absolute;
+}
+
+.imagem2 {
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    margin-top: -24vh;
+    margin-left: -38vw;
+    position: absolute;
+}
+
+.imagem3 {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    margin-top: -21vh;
+    margin-left: -28vw;
+    position: absolute;
+}
+
+.info {
+    margin-left: 35vw;
+    margin-top: 10vh;
+    color: #402A18;
+    position: absolute;
+}
+
+.segurança {
+    margin-top: 43px;
+    margin-left: 1vw;
+    position: absolute;
+    color: #402A18;
+}
+
+.Entrega_rapida {
+    margin-top: 13vh;
+    margin-left: 4.5vw;
+    position: absolute;
+    color: #402A18;
+}
+
+.Devoluçao {
+    margin-top: 10vh;
+    margin-left: 4vw;
+    position: absolute;
+    color: #402A18;
+}
+
+.sobre {
+    margin-top: -20vh;
+    color: #402A18;
+    position: absolute;
+    margin-left: 40vw;
+}
+
+footer {
+    margin-top: 75vh;
+    background-color: #402A18;
+    height: 30vh;
+}
+
+.direitos {
+    margin-top: 20vh;
+    text-align: center
+}
+
+p {
+    margin-top: 10vh;
+    margin-left: 4.5vw;
+    position: absolute;
+}
+
+h4 {
+    margin-left: 5vw;
+}
+
+.rede1 img {
+    width: 50;
+    height: 50px;
+    margin-top: -22vh;
+    margin-left: 3vw;
+    position: absolute;
+}
+
+.rede2 img {
+    position: absolute;
+    width: 59;
+    height: 59px;
+    margin-top: -22.4vh;
+    margin-left: 5vw;
+}
+
+.rede3 img {
+    position: absolute;
+    width: 59;
+    height: 59px;
+    margin-top: -22.4vh;
+    margin-left: 7.5vw;
+}
+
+#cart {
+    position: absolute;
+    margin-left: -18vw;
+    margin-top: 1.5vh;
+}
+
+#log {
+    position: absolute;
+    margin-left: -3vw;
+    margin-top: 1.5vh;
+}
+
+.Rua {
+    color: #000;
+}
+
+.comprar {
+    margin-top: -0.5vh;
+}
+
+.c2 {
+    margin-left: 5vw;
+}
+
+.preço {
+    margin-left: 5vw;
+}
