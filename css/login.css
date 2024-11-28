@@ -149,12 +149,10 @@ nav a {
   
 
 footer {
-    margin-top: 10vh;
+    margin-top: 12vh;
     background-color: #402A18;
-    height: 30vh;
-    width: 75vw;
+    height: 34vh;
 }
-
 .direitos {
     margin-top: 20vh;
     text-align: center
